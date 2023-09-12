@@ -1,0 +1,70 @@
+  body{
+    background-color:#05222b;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 1.5em;
+  }
+
+  header{
+    align-items: center;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: rgb(151, 187, 187);
+    }
+
+  .imagen{
+    background: center;
+    border-radius: 50%;
+    height: 300px;
+    margin-top: 80px;
+    width: 300px;
+  }
+
+  .introduccion{
+    margin: 24px 196px;
+  }
+
+  .academico{
+    margin: 24px 196px;
+  }
+
+  .laboral{
+    margin: 24px 196px;
+  }
+
+  .capacitaciones{
+    margin: 24px 196px;
+  }
+
+  .referencias{
+    margin: 24px 196px;
+  }
+
+  .tablaReferencias table, th, td{
+    width: 500px;
+    border: 1px solid rgb(89, 79, 100);
+  }
+
+  .contacto{
+    background-color: rgb(100, 133, 133);
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5em;
+  }
+
+  .datos{
+    text-align: center;
+    margin: 0,0,1;
+  }
+
+  .datos ul{
+    list-style: none;
+  }
+
+  .datos ul li{
+    padding: 0.5em;
+  }
